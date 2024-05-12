@@ -1,0 +1,102 @@
+:root {
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(
+      circle at center center,
+      #444cf7,
+      rgb(9, 122, 187)
+    ),
+    repeating-radial-gradient(
+      circle at center center,
+      #444cf7,
+      #444cf7,
+      10px,
+      transparent 90px,
+      transparent 10px
+    );
+  background-blend-mode: multiply;
+}
+
+#title {
+  color: rgb(255, 255, 255, 0.9);
+  font-size: 12rem;
+  padding: 1.25rem 1rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+  line-height: 7rem;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.social img {
+  width: 1.5rem;
+  filter: invert(1);
+  opacity: 0.9;
+}
+
+.social a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  transition: all 300ms linear;
+  color: aliceblue;
+  border-radius: 10rem;
+  border: 1px solid rgb(255, 255, 255, 0.25);
+  background-color: rgb(255, 255, 255, 0.1);
+  box-shadow: 0 10px 50px rgb(0, 0, 0, 0.25);
+}
+
+.social a:hover {
+  background-color: rgb(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+}
+
+.author {
+  position: relative;
+  color: aliceblue;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  z-index: 10;
+}
+
+.author a {
+  transition: all 300ms ease;
+  color: aliceblue;
+  text-decoration: none;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+}
+
+.author a:hover {
+  color: rgb(255, 255, 255, 0.5);
+}
