@@ -100,3 +100,9 @@ body {
 .author a:hover {
   color: rgb(255, 255, 255, 0.5);
 }
+
+.content {
+  width: 50%;
+  text-align: center;
+  margin-top: 2rem;
+}
