@@ -104,5 +104,19 @@ body {
 .content {
   width: 50%;
   text-align: center;
-  margin-top: 2rem;
+  margin: 2rem;
+  background-color: rgb(255, 255, 255, 0.1);
+  padding: 1rem 0.25rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0.25);
+  border: 1px solid rgb(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+}
+
+#poster {
+  margin-bottom: 1rem;
+  border-radius: 2rem;
+  width: 400px;
 }
