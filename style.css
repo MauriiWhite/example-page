@@ -87,6 +87,7 @@ body {
   margin-top: 0.5rem;
   padding: 0.5rem 1rem;
   z-index: 10;
+  text-align: center;
 }
 
 .author a {
@@ -113,6 +114,7 @@ body {
   backdrop-filter: blur(10px);
   letter-spacing: 0.25rem;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 #poster {
